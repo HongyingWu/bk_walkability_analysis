@@ -1,0 +1,132 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #2c3e50;
+    background-color: #FEF3D1;
+}
+
+.content {
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 100px;
+    width: calc(100% - 200px);
+    font-size: 15pt;
+}
+
+.content h1 {
+    font-size: 25pt;
+    color: #476480;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content h2{
+    color: #4B6D8E;
+}
+
+.title {
+    font-size: 42pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 22pt;
+    text-align: center;
+    padding: 30px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    color: #2c3e50;
+}
+
+.sidebar a:hover {
+    color: #476E92;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2,.section h3 {
+    color: #476E92;
+    /* Brown color */
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section li {
+    margin-bottom: 10px;
+}
+
+.full-size {
+    width: 100%;
+    height: 100%;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly around items */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-row img {
+    margin: 0; /* Space between images */
+}
+
+.supreme-title {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.credit-block {
+    background-color: #f9e7b1;
+    color: #476E92;
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+    margin-left: calc(-60vw + 59.2%);
+    margin-bottom: -20vw;
+    box-sizing: border-box;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
